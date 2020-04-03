@@ -97,7 +97,7 @@ def plot_heatmap(sample_name, bam_file, bin_num, bin_size, output_dir):
     matrix_file = f"{output_dir}/Region_bins.{sample_name}.{str(bin_num)}X{str(bin_size)}.matrix.csv"
 
     # Generate the bins
-    print(f"Generating Bins.\n")
+    print(f"Generating Bins.")
     bin_generator(args.region, bin_file, args.bin_num, args.bin_size)
 
     # Count the reads within each bin by using featureCounts
@@ -106,7 +106,7 @@ def plot_heatmap(sample_name, bam_file, bin_num, bin_size, output_dir):
               f"-o {count_file} " \
               f"-O " \
               f"{bam_file}"
-    print(f"Ececuting featureCounts: \n {command} \n")
+    print(f"Executing featureCounts: \n {command}")
     rc = subprocess.call(command, shell=True)
 
     # Reshape the results, calculate the CPM and output the matrix

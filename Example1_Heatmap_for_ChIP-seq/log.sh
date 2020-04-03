@@ -19,9 +19,11 @@ set DATA_DIR = /project/GCRB/Hon_lab/s160875/03.analysis/Mosaic-seq/CROP-DE-anal
 foreach SAMPLE (`cut -f2 ENCODE_annot.txt`)
     echo $SAMPLE
     set BAM_FILE = `grep $SAMPLE ENCODE_annot.txt | cut -f1`
-    ./plot_heatmap.py --region enhancer_regions.hg38.bed\
+    echo $BAM_FILE
+    ./heatmap_generator.py --region enhancer_regions.hg38.bed\
+		    --out_dir ENCODE_heatmap\
                     --sample_name $SAMPLE\
-                    --bam $BAM_FILE\
+                    --bam $DATA_DIR/$BAM_FILE\
                     --bin_num 200\
                     --bin_size 50\
 

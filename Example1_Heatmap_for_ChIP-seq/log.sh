@@ -21,11 +21,11 @@ foreach SAMPLE (`cut -f2 ENCODE_annot.txt`)
     set BAM_FILE = `grep $SAMPLE ENCODE_annot.txt | cut -f1`
     echo $BAM_FILE
     ./heatmap_generator.py --region enhancer_regions.hg38.bed\
-		    --out_dir ENCODE_heatmap\
-                    --sample_name $SAMPLE\
-                    --bam $DATA_DIR/$BAM_FILE\
-                    --bin_num 200\
-                    --bin_size 50\
+                        --out_dir ENCODE_heatmap\
+                        --sample_name $SAMPLE\
+                        --bam $DATA_DIR/$BAM_FILE\
+                        --bin_num 200\
+                        --bin_size 50\
 
 end
 

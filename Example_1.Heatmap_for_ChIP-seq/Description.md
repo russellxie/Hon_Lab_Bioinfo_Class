@@ -1,12 +1,12 @@
-## Example 1. Heatmap plotting for ChIP-seq / ATAC-seq / DNase-seq Samples
+# Example 1. Heatmap plotting for ChIP-seq / ATAC-seq / DNase-seq Samples
 
-### Description
+## Description
 Genomic assays such as ChIP-seq, ATAC-seq and DNase-seq can robustly capture the epigenetic features across the whole genome. However, 
 
 Think about this question:
 > Give a list of regions, how to illustrate multiple epigenetic features of these regions in the same figure? 
 
-#### The Input File You Have:
+## The Input File You Have:
 
 - A Bed File containing the region information, for example:
 
@@ -17,7 +17,7 @@ Think about this question:
 ```
 - The bam files for each sequencing libraries, in which each line represents one read.
 
-#### Hints:
+## Hints:
 
 - Ignore the programming part and think about how would you do it as a human being.
 - This is what we expect to have.

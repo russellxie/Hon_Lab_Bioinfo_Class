@@ -20,5 +20,6 @@ Think about this question:
 ## Hints:
 
 - Ignore the programming part and think about how would you do it as a human being.
-- This is what we expect to have.
-![Final Example](./Heatmap_allmarkers_200X50.png)
+- This is what we expect to have:
+
+<img src="Heatmap_allmarkers_200X50.png" alt="test image size" height="60%" width="60%">

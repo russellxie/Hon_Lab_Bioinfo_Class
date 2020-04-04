@@ -1,7 +1,7 @@
 # Example 1. Heatmap plotting for ChIP-seq / ATAC-seq / DNase-seq Samples
 
 ## Description
-Genomic assays such as ChIP-seq, ATAC-seq and DNase-seq can robustly capture the epigenetic features across the whole genome. However, 
+Genomic assays such as ChIP-seq, ATAC-seq and DNase-seq can robustly capture the epigenetic features across the whole genome. However, it is not that intuitive to illustrate data from large number of genomic loci. In this example, we will cover a common strategy to achieve this goal: plotting heatmap.
 
 Think about this question:
 > Give a list of regions, how to illustrate multiple epigenetic features of these regions in the same figure? 

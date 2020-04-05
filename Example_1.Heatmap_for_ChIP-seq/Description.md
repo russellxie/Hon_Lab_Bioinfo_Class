@@ -12,9 +12,9 @@ Think about this question:
 
 - A Bed File containing the region information, for example:
 
-> chr10 101364638 101365038
-> chr10 16996176 16996576
-> chr10 17003096 17003496
+> chr10 101364638 101365038  
+> chr10 16996176 16996576  
+> chr10 17003096 17003496  
 
 - The bam files for each sequencing libraries, in which each line represents one read.
 
@@ -27,10 +27,7 @@ Think about this question:
 
 ## File Description
 
-`log.sh` Main log file for job submission.
-
-`heatmap_generator.py` Main python script to generate the matrix required for heatmap plotting.
-
-`Heatmap_plotting.ipynb` Jupyter notebook file for plotting.
-
+`log.sh` Main log file for job submission.  
+`heatmap_generator.py` Main python script to generate the matrix required for heatmap plotting.  
+`Heatmap_plotting.ipynb` Jupyter notebook file for plotting.  
 `enhancer_regions.hg38.bed` Region info.

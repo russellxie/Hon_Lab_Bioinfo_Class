@@ -25,10 +25,12 @@ Think about this question:
 
 <img src="Heatmap_allmarkers_200X50.png" alt="test image size" height="60%" width="60%">
 
-
 ## File Description
 
 `log.sh` Main log file for job submission.
+
 `heatmap_generator.py` Main python script to generate the matrix required for heatmap plotting.
+
 `Heatmap_plotting.ipynb` Jupyter notebook file for plotting.
+
 `enhancer_regions.hg38.bed` Region info.
